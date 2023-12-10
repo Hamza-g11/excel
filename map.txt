@@ -1,0 +1,78 @@
+f2
+f4 $$
+ctrl + shift + ⬇
+
+BACH N verifier L column = column akhor ya3ni same result kandir =column1=column2
+
+
+ctrl + end : katdik l akher cell
+ctrl + home : katdik awel cell
+
+ila b9it m click 3la ctrl + . ghanmchi l zawaya
+
+ctrl + t : we change the data to table (note : fach n cree chi table crucial to name it)
+
+ctrl + espace : select coulmn LI ANA FIH KAML
+
+ila bghina n3amro cells B nefss L id li fkola group kan select dok cells l khawin & =⬆ (kangolo khod value mn cell li fo9 mn cell Lkhawya) & kanb9a m click 3la ctrl + enter
++ khassna n7awlo dok cells L value machi formula (kandrio  ctrl + space & copie & coller123(li hiya values))
+
+=LEN(CELL)
+
+=RIGHT(cell , number li ayakhod mn right d text)
+
+=find('text li baghi nl9a' , A1 , mnin nbda optional) for finding index
+=SUBSTITUTE(A1, "apple", "orange", index dyal ina apple wach ybdel awel we7da andir 1 la kanet tanya andir 2 haka ayna9ez apple lowla o aybdel 2) change apple to orange
+
+Home -> date -> more format (bach n9ado date 3la 7sab ki bghina tkon)
+bach nhbet date o nt7arek b nhar ola chhar ola year : data -> text to column -> delimited -> other (/ ola - 3la 7sab date format) -> date(mdy)
+
+sum katjme3  biha
+=sum(c1,c2)
+
+kat7seb biha ch7al mn cells (makat7sebch cell Lkhawin)
+=count(cells b select)
+
+kat7seb biha ch7al mn cells (kat7seb cell Lkhawin)
+=counta(cell b select)
+
+SUMIF : =SUMIF(RANGE,CONDITION, SUM RANGE)
+
+sumifs :kanjebdo 9ima mo7adada bchorot
+G3:G14 = sum_range , F3:F14 = criteria_range1 , "ahmad" = cretiria1 , ....labghit nzid chorot mzl
+=SUMIFS(G3:G14,F3:F14,"ahmad",E3:E14,"semara")
+
+COUNTIF: =COUNTIF(COUNT RANGE , CONDITION)
+COUNTIFS: =COUNTIFS(COUNT RANGE , CONDITION,COUNT_RANGE2 , CONDITION2...)
+
+MID(TEXT LI BAGHI N9ESS MNO , START INDEX , LAST INDEX) MID KATKHALINA N9ET3O TEXT 
+
+FILTER : DATA -> FILTER kan select cells o kay3tini filter for every column
+
+ADVANCED FILTER : DATA -> ADVANCED kaysahel 3lina n copiw data mn table l akher  + tkon unique without duplicate
+
+VLOOKUP: FOR COLUMN : =VLOOKUP(LOOK VALUE hiya cell li baghi n9aleb 3liha , TABL ARRAY l area fin ay9aleb kan lookiha b F4 , number = number dyal column mnin ayakhod l value, 0 = exact result)
+
+HLOOKUP: FOR ROWS : SAME ⬆
+(NOTE : L COLUMN LI GHAN JIB MNO VALUE YKON MN MORA L COLUMN LI FIH CELL DYAL SEARCH , ID F COLUMN LOWEL KHASS VALUE TKON F COLUMN 2)
+
+XLOOKUP: XLOOKUP(CELL LI AN9ALBO 3LIHA , COLUMN FIN KAYNA , COLUMN FIN ANJIB VALUE LI KAN9LB 3LIHA) XLOOKUP kat9leb f row o column.
+
+PRINTING : ctrl+P
+PAGE LAYOUT : BACH NDIR TITLE F HEAD OLA F FOOT DYAL PAGE LI AYBAN F PRINT
+
+FREEZING: VIEW -> FREEZE PANES = bach n block column lowel li lfo9 ola column lowel f jenb
+
+GROUPING (shift + sheets which i want) : bach n modifier f ga3 sheets li groupithom same modification  , w bach n ungroupihum Click Right -> ungrouping sheets
+
+Sort Warming : expand the selection = ghayt sort table kaml 3la 7sab dak column , continue with the current selection = ghay t sort just dak column o atkharb9 data dyal table
+
+HOME -> CONDITIONAL FORMATING -> HIGHLIGHTING CELL -> DUPLICATE CELL : hadi bach nlowen duplicate cell fchi column
+
+DATA->SUBTOTAL : KAN9EDRO NDIRO WAHED SUBTOTAL TE7T L CELL LI B7AL B7AL KHTARINAHOM MN COLUMN LI BGHINA O TOTAL DYALHOM F L COLUMN TANI LI KHTARINAHOM
+
+bach n select cell lkhawin f chi column : HOME -> FIND & SELECT -> GO TO SPECIAL -> BLANKS 
+
+
+="Q" & ROUNDUP(MONTH(COLUMN DYAL DATE))/3,0)& " "&YEAR(COLUMN DYAL DATE) ; hna "Q" hiya text kandiro & bach nkmlo ,roundup hiya formula kat rondi biha chi value
+month bach nakhdo chhar mn cell dyal date , 9semna 3la 3 bach nkharjo quarters , 0 bach t ronda mn e.g : 9,01 L 10
